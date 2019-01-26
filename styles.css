@@ -1,0 +1,99 @@
+body {
+    background-color: #F7F9FB;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar {
+    fill: steelblue;
+  }
+
+  .bar:hover {
+    fill: brown;
+  }
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.svg-content {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto auto auto auto auto auto;
+    padding-top: 20px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 60px;
+    height: 50px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    z-index: 99999;
+    opacity: 0;
+}
+
+.visualizeButton {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+
+.sidebar {
+    display: none;
+    position: fixed;
+    width: 25%;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+
+.dropdownButton{
+    padding-top: 50px;
+    display: block !important;
+}
+
+.details {
+    width: 75%;
+    padding-top: 20px;
+}
+
+.detailsText{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.chosenGroup {
+    padding-top: 50px;
+}
+
+.listGroups{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.backButton {
+    display: none !important;
+    margin-top: 100px !important;
+}
