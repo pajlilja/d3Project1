@@ -36,7 +36,7 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     width: 75%;
     padding-top: 20px;
-    grid-gap: 20px 40px;
+    grid-gap: 20px 20px;
 }
 
 div.tooltip {
@@ -59,7 +59,7 @@ div.tooltip {
     position: absolute;
     left: 45%;
     top: 50%;
-    z-index: 9999;
+    z-index: 9999 !important;
 }
 
 .sidebar {
@@ -91,8 +91,8 @@ div.tooltip {
 }
 
 .listGroups{
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
     padding-bottom: 20px !important;
 }
 

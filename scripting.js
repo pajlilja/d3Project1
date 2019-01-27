@@ -158,7 +158,7 @@ function FUNCU(list, element, question="") {
         top: 20,
         right: 20,
         bottom: 30,
-        left: 50
+        left: 30
     },
     width = parseInt(svgContainer.style("width")) - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom,
