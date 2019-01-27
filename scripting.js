@@ -160,13 +160,14 @@ function FUNCU(list, element, question="") {
         bottom: 30,
         left: 50
     },
-    width = parseInt(svgContainer.style("width"))*1.2 - margin.left - margin.right,
-    height = parseInt(svgContainer.style("height"))*0.7 - margin.top - margin.bottom,
+    width = parseInt(svgContainer.style("width")) - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 
     var x = d3.scaleBand()
         .domain(list.map(function(d,i){return i+1;}))
-	    .rangeRound([0, width/2])
+	    .rangeRound([0, width])
         .padding(0.5);
 
     var y = d3.scaleLinear()
